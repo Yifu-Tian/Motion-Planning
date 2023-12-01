@@ -1,2 +1,2 @@
 # Motion-Planning
-23 winter - 24 summer Purdue Digital Twins Lab
+2023 winter - 2024 summer Purdue Digital Twins Lab
