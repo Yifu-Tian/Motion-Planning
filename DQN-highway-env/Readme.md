@@ -1,6 +1,8 @@
 ## 基于Deep Q-Network算法和highway-env仿真环境的车道变更策略
 
-### Intro
+### INTRO
+
+#### DEEP Q-NETWORK
 DQN算法是强化学习算法中的一个入门级别的算法，stable-baselines3库中已经集成了，因此可以“拿来主义”，不需要太多相关的算法推导细节就能上手使用。当然了解算法的核心思想一定是重中之重。
 
 强化学习中的策略可以按照目标策略和行为策略进行分类:
@@ -13,7 +15,7 @@ Q-learning算法: 该算法中存在一张表格, 记录每个状态下执行每
 
 DQN算法: 当状态和动作为连续的, 无限的, 通过表格的方式记录就不合理了, 采用神经网络来替代表格, 输入为状态, 输出为动作。 DQN原始论文：[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)
 
-### highway-env
+#### highway-env
 在用Carla进行仿真之前, 我打算先用highway-env简单上手一下RL, 了解到一个自动驾驶模拟环境[highway-env](https://github.com/Farama-Foundation/HighwayEnv), 由Edouard Leurent开发和维护, 其中包含6个场景
 - 高速公路"highway-v0"
 - 汇入"merge-v0"
@@ -27,6 +29,8 @@ DQN算法: 当状态和动作为连续的, 无限的, 通过表格的方式记�
 - 配置环境
 - 训练模型
 - 总结
+
+
 ### HOW TO EXECUTE
 1. 在train_model.py中修改参数，训练模型，模型文件会自动生成并保存为highway_dpn_model.zip
 2. 在main.py中修改模型文件路径，测试模型性能，输出demo，mean_reward，collision_rate和success_rate图像
