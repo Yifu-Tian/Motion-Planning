@@ -31,6 +31,10 @@ DQN算法: 当状态和动作为连续的, 无限的, 通过表格的方式记�
 1. 在train_model.py中修改参数，训练模型，模型文件会自动生成并保存为highway_dpn_model.zip
 2. 在main.py中修改模型文件路径，测试模型性能，输出demo，mean_reward，collision_rate和success_rate图像
 
+### DEMO
+<img width="1280" alt="image" src="https://github.com/Yifu-Tian/Motion-Planning/assets/102942951/2d3b5f51-e9bb-4951-9d2a-ff110c458fff">
+
+
 ### Reference
 [stable-baseline3](https://stable-baselines3.readthedocs.io/en/master/modules/dqn.html)  
 [基于DQN强化学习的高速路决策控制 - Colin.Fang的文章 - 知乎](
