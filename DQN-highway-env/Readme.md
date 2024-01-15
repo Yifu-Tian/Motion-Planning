@@ -32,13 +32,13 @@ DQN算法: 当状态和动作为连续的, 无限的, 通过表格的方式记�
 2. 在main.py中修改模型文件路径，测试模型性能，输出demo，mean_reward，collision_rate和success_rate图像
 
 ### Reference
-[stable-baseline3](https://stable-baselines3.readthedocs.io/en/master/modules/dqn.html)
+[stable-baseline3](https://stable-baselines3.readthedocs.io/en/master/modules/dqn.html)  
 [基于DQN强化学习的高速路决策控制 - Colin.Fang的文章 - 知乎](
-https://zhuanlan.zhihu.com/p/591065890)
+https://zhuanlan.zhihu.com/p/591065890)  
 [基于PPO自定义highway-env场景的车辆换道决策 - Colin.Fang的文章 - 知乎
-](https://zhuanlan.zhihu.com/p/616670173)
+](https://zhuanlan.zhihu.com/p/616670173)  
 [DQN算法实现注意事项及排错方法
-](https://zhuanlan.zhihu.com/p/169456820)
-[DQN实现高速超车（复现 deeptraffic:MIT 6.S094: Deep Learning for Self-Driving Cars）](https://blog.csdn.net/drilistbox/article/details/80161234?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-12-80161234-blog-121444571.235^v40^pc_relevant_anti_vip_base&spm=1001.2101.3001.4242.7&utm_relevant_index=15)
-[深度强化学习训练与调参技巧](https://zhuanlan.zhihu.com/p/482656367)
-[Carla教程](https://www.zhihu.com/column/c_1324712096148516864)
+](https://zhuanlan.zhihu.com/p/169456820)  
+[DQN实现高速超车（复现 deeptraffic:MIT 6.S094: Deep Learning for Self-Driving Cars）](https://blog.csdn.net/drilistbox/article/details/80161234?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-12-80161234-blog-121444571.235^v40^pc_relevant_anti_vip_base&spm=1001.2101.3001.4242.7&utm_relevant_index=15)  
+[深度强化学习训练与调参技巧](https://zhuanlan.zhihu.com/p/482656367)  
+[Carla教程](https://www.zhihu.com/column/c_1324712096148516864)  
